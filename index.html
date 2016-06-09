@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<title>&nbsp;</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--script src="https://code.jquery.com/jquery-2.2.3.min.js"></script-->
+        
+		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+		<script src="code.js"></script>
+        
+	</head>
+	
+	<body>
+		<h1>Hello User</h1>
+		
+		<button onclick="invokeCamera();">Snap It</button><br>
+		        
+        <input type="file" onchange="previewFile()"><br>
+        
+		<img id="myImage" src=""/><br>
+        
+        <button onclick="getText();">Convert !!</button><br>
+        
+        <textarea id="imageText" rows="4"></textarea>
+        <button onclick="shareText();">Share</button>
+	</body>
+	
+</html>
